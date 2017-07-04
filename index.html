@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="conatiner-fluid">
+  <div class="outer-box">
+    <div class="control-buttons row">
+      <div class="col-xs-4">
+        <span class="well" id="count">Count: 0</span>
+      </div>
+      <div class="col-xs-4">
+        <button class="btn btn-primary" id="start">Start</button>
+      </div>
+      <div class="col-xs-4">
+        <span id="strict">Strict</span>
+        <label class="switch">
+          <input type="checkbox" id="checkbox">
+          <div class="slider round"></div>
+        </label>
+      </div>
+    </div>
+    <div class="play-buttons">
+      <div class="row row-1">
+        <div class="col-xs-6">
+          <button class="btn btn-play" id="blue"></button>
+        </div>
+        <div class="col-xs-6">
+          <button class="btn btn-play" id="red"></button>
+        </div>
+      </div>
+      <div class="row row-2">
+        <div class="col-xs-6">
+          <button class="btn btn-play" id="green"></button>
+        </div>
+        <div class="col-xs-6">
+          <button class="btn btn-play" id="yellow"></button>
+        </div>
+      </div>
+    </div>
+    <div class="message-box">
+      <div class="message">
+        Simon Game
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
